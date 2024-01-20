@@ -1,0 +1,98 @@
+.father{
+    margin-top: 2rem;
+    gap: 5rem;
+}
+.father .child2{
+    display: block;
+    text-align: left;
+    margin-left: 3rem;
+
+}
+.father img{
+    padding-top: 2rem;
+}
+ .child2  button .btn2 {
+    margin-top: 1rem;
+    padding: 0.9375rem 1.5625rem;
+    border-radius: 0.25rem;
+    gap: 0.653125rem;
+    background-color: #DF6951;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+    text-align: center;
+    width: 10rem;
+    border: none;
+    margin-left: 3rem;
+}
+.child2  h1{
+    text-align: left;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: left;
+    color: #181E4B;
+    margin-right: 6rem;
+}
+.father .child2 span{
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3875rem;
+    text-align: left;
+    color: #DF6951;
+}
+.father .child2 p{
+    max-width: 400px;
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.3125rem;
+    text-align: left;
+    padding-right: 2rem;
+}
+.child2 img{
+    width: 18rem;
+    margin-top: 2rem;
+}
+
+@media (max-width:776px) {
+    .child1{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        height: 15rem;
+    }
+    .child2 h1{
+        font-size: 1rem;
+        font-weight: 300;
+        color:teal;
+    }
+    .child2 p{
+        min-width: 12rem;
+        font-size: 0.5rem;
+        font-weight: 100;
+        text-align: center;
+        
+    }
+    .child2 span{
+        font-size: 0.5rem;
+        font-weight: 100;
+    }
+    .child2 button{
+        width: 5rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0.7rem;
+    }
+    .child2 img{
+        width: 9rem;
+    }
+    
+}

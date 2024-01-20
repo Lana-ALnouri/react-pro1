@@ -1,0 +1,37 @@
+.Wanderlust{   
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    object-fit:cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.Wanderlust h1{
+    font-family: Yesteryear;
+    font-size: 9.8125rem;
+    font-weight: 400;
+    line-height: 224px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.Wanderlust .clickbtn{
+    position: absolute;
+}
+@media (max-width:776px){
+    .Wanderlust h1{
+        font-weight: 200;
+        font-size: 4rem;
+    }
+    .Wanderlust {
+        height: 15rem;
+    }
+    .clickbtn{
+        width: 3rem;
+    }
+}

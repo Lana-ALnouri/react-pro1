@@ -1,0 +1,38 @@
+.Title h2{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 3.4375rem;
+    color: #df6951;
+    font-family: poppins;
+
+
+}
+.Title h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size:2.5rem;
+    font-weight: 700;
+    color: #1e1d4c;
+    font-family: poppins;
+
+}
+
+@media (max-width:776px) {
+
+    .Title h2{
+        font-size: 0.9rem;
+        font-weight: 300;
+        line-height: 2rem;
+        text-align: center;
+        font-family: poppins;
+    }
+    .Title h1{
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+        font-family: poppins;
+    }
+
+}

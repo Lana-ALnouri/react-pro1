@@ -1,0 +1,105 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer p{
+    color:#2F2F2F;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    text-align: left;
+    
+
+}
+.footer ul {
+    list-style: none;
+    line-height: 1.25rem;
+    padding-top: 0.7rem;
+    font-family: Poppins;
+
+}
+.footer h2{
+    font-family: Poppins;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+}
+    
+.footer li{
+
+    /* padding: 15px; */
+    text-align: center;
+    color: #2F2F2F;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding: 0.625rem;
+    cursor: pointer;
+    font-family: Poppins;
+
+}
+
+.end{
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.smLogo img{
+    margin-top: 1rem;
+    margin-left: 2.3rem;
+}
+@media (max-width:776px){
+    .smLogo{
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    .footer p{
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+    .footer li{
+        font-weight: 200;
+        margin-left: 3rem;
+        text-align: left;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+        margin-right: 2rem;
+    }
+    .footer h2{
+        font-weight: 200;
+        color:tomato;
+        text-align: right;
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    .end p{
+        margin-left: 3rem;
+        font-weight: 300;
+        color: tomato;
+        text-shadow: coral;
+        font-size: 0.8rem;
+    }
+    .smLogo p{
+        margin-left: 3rem;
+        font-weight: 300;
+        color: tomato;
+        text-shadow: coral;
+        font-size:0.8rem;
+
+    }
+}

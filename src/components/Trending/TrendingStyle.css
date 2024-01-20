@@ -1,0 +1,14 @@
+.TrenCards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+}
+
+@media (max-width:776px) {
+    .TrenCards{
+        flex-wrap: wrap;
+    }
+    
+}

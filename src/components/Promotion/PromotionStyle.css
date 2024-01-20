@@ -1,0 +1,12 @@
+.ProCards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+}
+@media (max-width:776px){
+    .ProCards{
+    flex-wrap: wrap;
+    margin-top: 0rem;
+}
+}
